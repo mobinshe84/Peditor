@@ -1,0 +1,31 @@
+body {
+    direction: rtl;
+}
+#footer {
+    height: 150px;
+    background-color: rgb(93, 144, 255);
+}
+.footer-items {
+    list-style-type: none;
+    float: left;
+    direction: rtl;
+    position: absolute;
+    right: 10px;
+}
+.footer-itm {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 20px;
+    direction: rtl;
+    color: white;
+    transition: 0.15s color;
+}
+.footer-itm:hover {
+    color: rgb(37, 37, 37);
+}
+.footer-h5 {
+    position: absolute;
+    left: 10px;
+    margin-top: 40px;
+    color: white;
+}

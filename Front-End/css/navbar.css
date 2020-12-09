@@ -1,0 +1,140 @@
+body {
+    
+}
+ul {
+    margin: 0 !important;
+}
+@font-face {
+    font-family: Vazir;
+    src: url(../media/fonts/Vazir.ttf);
+}
+
+* {
+    font-family: Vazir;
+}
+#navbar {
+    padding: 0;
+
+}
+#section {
+    margin-top: 80px;
+}
+#sidebar {
+    
+}
+#footer {
+
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: block;
+    height: 70px;
+    background-color: rgb(246, 245, 255);
+    border-top: rgb(93, 144, 255) 5px solid;
+}
+.pc-item{
+    float: right;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    padding: 20px;
+    transition: color 0.15s;
+    
+}
+.pc-item::after {
+    margin-top: 20px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(93, 144, 255);
+    transition: width .3s;
+    float: right;
+}
+
+.pc-item:hover::after {
+    width: 100%;
+}
+.pc-item:hover {
+    color: rgb(93, 144, 255);
+}
+
+
+.nav-mobile {
+    background-color: rgb(246, 245, 255);
+    height: 70px;
+    border-top: rgb(93, 144, 255) 5px solid;
+}
+.scroll-button {
+    border: none;
+    float: right;
+    width: fit-content;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px;
+    padding: 10px;
+}
+.scroll-icon {
+    font-size: 20px;
+}
+.mobile-ul {
+    list-style-type: none;
+    display: block;
+    background-color: rgb(246, 245, 255);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+}
+.mobile-item {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.15s;
+    text-align: right;
+}
+.mobile-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(93, 144, 255);
+    transition: width .3s;
+}
+
+.mobile-item:hover::after {
+    width: 100%;
+}
+
+.mobile-item:hover {
+    color: rgb(93, 144, 255);
+}
+.logo {
+    margin-top: 8px;
+    float: right;
+    height: 40px;
+    width: 125px;
+}
+.mobile-logo {
+    margin-top: 11px;
+    float: left;
+    height: 40px;
+    width: 125px;
+}
+a {
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    .nav-ul {
+        display: none;
+    }
+}
+
+@media (min-width: 701px) {
+    .mobile-header {
+        display: none;
+    }
+}
+
+

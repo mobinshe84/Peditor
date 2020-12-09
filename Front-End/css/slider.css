@@ -1,0 +1,65 @@
+.comparison-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(0, 162, 252);
+}
+.image-comparison {
+    min-height: 300px;
+    margin-left: 3%;
+}
+.img-before {
+    float: left;
+    width: 45%;
+}
+.before {
+    width: 100%;
+}
+.comparison-arrow {
+    float: left;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.img-after {
+    float: left;
+    width: 45%;
+}
+.after {
+    width: 100%;
+}
+
+
+/* ============================= */
+
+.fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }

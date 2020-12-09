@@ -1,0 +1,58 @@
+.first {
+    text-align: center;
+    
+}
+.first-img {
+    float: left;
+}
+.first-explain {
+    float: right;
+    margin-right: 30px;
+}
+.head {
+    direction: rtl;
+    color: rgb(0, 162, 252);
+}
+.paragraph {
+    direction: rtl;
+    float: right;
+    line-height: 50px;
+}
+.first-image {
+    opacity: 0;
+    transition: 4s opacity;
+}
+.paragraph-2 {
+    direction: rtl;
+    float: left;
+    line-height: 50px;
+}
+.second-img {
+    float: right;
+}
+.second-image {
+    opacity: 0;
+    transition: 4s opacity;
+}
+.main-explain {
+    margin-bottom: 900px;
+}
+.begin {
+    background: url(../media/images/wallpaper.jpg) no-repeat;
+    background-size: 100%;
+    padding-top: 175px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+.items {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+}
+.h4-head {
+    text-align: center;
+    margin-top: -5px;
+    font-weight: bold;
+}
